@@ -1,0 +1,14 @@
+[project]
+name = "threshold-debounce-analysis"
+version = "0.1.0"
+description = "Reproducible analysis of threshold crossings under noise, jitter, and debounce constraints."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
